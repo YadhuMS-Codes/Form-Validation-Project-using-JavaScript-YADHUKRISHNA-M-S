@@ -1,0 +1,65 @@
+h1{
+  text-align:center;
+  font-size: 40px;
+  font-family:'Courier New', Courier, monospace;
+  color: #ececec;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(121, 35, 35);
+  color: #90e9e9;
+  background-image: url('why.jpg');
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #4e5057;
+  font-style: italic;
+  width: 450px;
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+/* Style for form submit button */
+button[type="submit"] {
+  background-color: #9dbdbc;
+  color: rgb(164, 146, 146);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+/* Style for error messages */
+.error {
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
